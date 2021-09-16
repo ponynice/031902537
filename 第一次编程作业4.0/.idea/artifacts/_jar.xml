@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="第一次编程作业:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/_jar</output-path>
+    <root id="archive" name="第一次编程作业.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/src/resource/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="第一次编程作业" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jpinyin-1.1.7.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
