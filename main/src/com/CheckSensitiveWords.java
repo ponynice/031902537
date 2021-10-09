@@ -29,9 +29,9 @@ public class CheckSensitiveWords {
         for(int i = 0 ; i < txt.length() ; i++){
             int length = CheckSensitiveWord(txt, i, matchType);    //判断是否包含敏感字符
             if(length > 0){    //存在,加入list中
-                liner="Line"+line+":";
+                liner="Line"+line+": ";
                 sensitiveWordList.add(liner);
-                liner="<"+orginalword+">";
+                liner="<"+orginalword+"> ";
                 sensitiveWordList.add(liner);
                 sensitiveWordList.add(txt.substring(i, i+length));//substring截取字符串
                 i = i + length - 1;    //减1的原因，是因为for会自增

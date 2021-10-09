@@ -24,7 +24,7 @@ public class Main {
         CheckSensitiveWords aa=new CheckSensitiveWords();
         aa.getMap(wordsmap);
         List<String> setwords=aa.getSensitiveWord(checkfile,1);//检测敏感词并得到文章中的敏感词形式以及总数
-        StringBuilder txt= new StringBuilder("Total:" + setwords.size() / 3 + '\n');
+        StringBuilder txt= new StringBuilder("Total: " + setwords.size() / 3 + '\n');
         for(int k=0;k<setwords.size();k+=3){
             txt.append(setwords.get(k));
             txt.append(setwords.get(k + 1));
